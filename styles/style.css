@@ -58,5 +58,22 @@ header{
     position: absolute;
 }
 
-
-
+/* main */
+main{
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.sec-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 0px;
+    border: 0.5px solid rgba(192, 204, 218, 0.6);
+    border-left: none;
+    border-right: none;
+}
+.sec-1 div:nth-child(3) img{
+    width: 90px;
+    height: 50px;
+}
