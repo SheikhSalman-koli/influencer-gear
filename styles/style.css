@@ -48,13 +48,14 @@ header{
     background-color: #E02C6D;
     border-style: none;
     font-size: 16px;
-    font-weight: bold
+    font-weight: bold;
 }
+
 .pic img{
     width: 440px;
     height: 414px;
     margin-left: 50px;
-    position: absolute;
+    background-image: url("images/circle-design.jpg");
 }
 
 /* main */
@@ -171,9 +172,7 @@ footer{
     display: flex;
     justify-content: center;
 }
-.main-box{
-    
-}
+
 .box h3{
     font-size: 24px;
     font-weight: bold;
@@ -193,4 +192,30 @@ footer{
 .img{
     text-align: center;
 }
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction:column ;
+        justify-content: center;
+    }
+    .banner{
+       flex-direction: column-reverse;
+       column-gap: 0px;
+    }
+    .pic img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .sec-1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .parent{
+        display: flex;
+       flex-direction: column;
+       
+    }
+    .container{
+       flex-direction: column-reverse;
+    }
 }
