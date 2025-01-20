@@ -200,11 +200,14 @@ footer{
         justify-content: start;
     }
     .navbar ul li{
-        margin-right:5px;
+        margin-right:0px;
+    }
+    .navbar ul li a{
+        font-size: 12px;
+        font-weight: 400;
     }
     .banner{
        flex-direction: column-reverse;
-       column-gap: 0px;
     }
     .pic img{
         width: 100%;
@@ -221,7 +224,13 @@ footer{
        flex-direction: column;
        
     }
+    .child{
+        padding: 16px;
+    }
     .container{
        flex-direction: column-reverse;
+    }
+    .photo>img{
+        width: 100%;
     }
 }
