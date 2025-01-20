@@ -136,3 +136,31 @@ span{
     font-weight: bold;
     background-color: #FFFFFF;
 }
+/* .sec-3 */  
+.sec-3{
+    margin-top: 100px;
+}  
+.container{
+    display: flex;
+    column-gap: 96px;
+}
+.texts h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #0A0826;
+    
+}
+.texts p{
+    font-size:16px ;
+    font-weight: bold;
+    color: #6C6C6C;
+    margin-top: -15px;
+}
+.texts button{
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold
+}
